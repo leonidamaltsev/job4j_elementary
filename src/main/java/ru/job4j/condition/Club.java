@@ -5,7 +5,7 @@ public class Club {
         if (hasMoney || beFriend) {
             System.out.println("I can go to the club.");
         } else {
-            System.out.println("I can't.");
+            System.out.println("I can't");
         }
     }
 
