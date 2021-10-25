@@ -20,7 +20,7 @@ public class SwitchArrayTest {
         int source = 0;
         int i = input.length - 1;
         int[] result = SwitchArray.swapBorder(input);
-        int[] expected = {6, 2, 3, 4, 5, 1};
+        int[] expected = {6, 5, 4, 3, 2, 1};
         Assert.assertArrayEquals(expected, result);
     }
 }
